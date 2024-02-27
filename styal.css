@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+	background: url('https://t4.ftcdn.net/jpg/05/36/32/95/360_F_536329537_RblOApJIbTIPjNlROJrKKiJaFmceLJvZ.jpg');
+	background-size: cover;
+}
+.emoji {
+  font-size: 4rem;
+	top: 50%;
+	left: 150px;
+	
+}
+.emoji span {
+	background: white;
+	padding: .5rem;
+	font-size: 1rem;
+	border-radius: 50%;
+	height: 2.2rem;
+	position: relative;
+	top: -45px;
+}
+#leaps {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 1.1rem;
+	color: white;
+}
